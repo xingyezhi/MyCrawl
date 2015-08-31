@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+
+<title> powerCoder - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://people/powercoder">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=http://www.zhihu.com/people/powercoder">
+<meta id="znonce" name="znonce" content="dac952d4262c4bf98dd6d9062dd9d229">
+<link rel="apple-touch-icon-precomposed" href="http://static.zhihu.com/static/img/ios/zhihu(57px).png" />
+<link rel="apple-touch-icon-precomposed" href="http://static.zhihu.com/static/img/ios/zhihu(72px).png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" href="http://static.zhihu.com/static/img/ios/zhihu(76px).png" sizes="76x76" />
+<link rel="apple-touch-icon-precomposed" href="http://static.zhihu.com/static/img/ios/zhihu(114px).png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" href="http://static.zhihu.com/static/img/ios/zhihu(120px).png" sizes="120x120" />
+<link rel="apple-touch-icon-precomposed" href="http://static.zhihu.com/static/img/ios/zhihu(152px).png" sizes="152x152" />
+
+
+<link rel="shortcut icon" href="http://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="http://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="http://static.zhihu.com/static/ver/1448c035667b4dfdede5ea554801663c.z.css">
+
+
+
+<!--[if lt IE 9]>
+<script src="http://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="http://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+
+<script src="http://static.zhihu.com/static/ver/881eced7455dbba5c51d3fa98ba6666d.instant.min.js"></script>
+
+<style>
+.zm-item-top-container{
+display:none;
+}
+.zm-profile-section-head .goog-menu{
+display:none;!important;
+}
+</style>
+
+</head>
+
+<body class="zhi">
+<div role="navigation" class="zu-top">
+<div class="zg-wrap modal-shifting" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo">知乎</a>
+
+<div class="top-nav-profile">
+<a href="/people/powercoder" class="zu-top-nav-userinfo selected">
+<span class="name">powerCoder</span>
+<img class="avatar avatar-s" alt="powerCoder" src="//pic4.zhimg.com/b107c0cfc3e2d7a7a43795fc1170d59b_s.jpg" srcset="//pic4.zhimg.com/b107c0cfc3e2d7a7a43795fc1170d59b_xs.jpg 2x" />
+<span id="zh-top-nav-new-pm" class="zg-noti-number zu-top-nav-pm-count"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+<ul class="top-nav-dropdown" id="top-nav-profile-dropdown">
+<li>
+<a href="/people/powercoder">
+<i class="zg-icon zg-icon-dd-home"></i>我的主页
+</a>
+</li>
+
+<li>
+<a href="/inbox">
+<i class="zg-icon zg-icon-dd-pm"></i>私信
+<span id="zh-top-nav-pm-count" class="zu-top-nav-pm-count zg-noti-number"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+</li>
+<li>
+<a href="/settings">
+<i class="zg-icon zg-icon-dd-settings"></i>设置
+</a>
+</li>
+<li>
+<a href="/logout">
+<i class="zg-icon zg-icon-dd-logout"></i>退出
+</a>
+</li>
+</ul>
+
+</div>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form form-with-magnify">
+
+<input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" placeholder="搜索话题、问题或人…" />
+<input type="hidden" name="type" value="question" />
+<label for="q" class="hide-text">知乎搜索</label>
+<button type="submit" class="magnify-button"><i class="icon icon-magnify-q"></i><span class="hide-text">搜索</span></button>
+</form>
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home">首页</a>
+</li>
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+
+</li>
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+<li class="top-nav-noti zu-top-nav-li ">
+<a class="zu-top-nav-link" href="javascript:;" id="zh-top-nav-count-wrap" role="button"><span class="mobi-arrow"></span>消息</a>
+</li>
+
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-popup-refresh" style="display:none;">
+<img class="noti-spinner" src="/static/img/spinner2.gif" />
+</div>
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<img class="noti-spinner" src="/static/img/noti-loading.gif" />
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-popup-refresh" style="display:none;">
+<img class="noti-spinner" src="/static/img/spinner2.gif" />
+</div>
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<img class="noti-spinner" src="/static/img/noti-loading.gif" />
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-popup-refresh" style="display:none;">
+<img class="noti-spinner" src="/static/img/spinner2.gif" />
+</div>
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<img class="noti-spinner" src="/static/img/noti-loading.gif" />
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+<div class="zg-wrap zu-main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner" id="zh-pm-page-wrap">
+
+
+
+<div class="zm-profile-header">
+<div class="zm-profile-header-main">
+<div class="top">
+
+<div class="title-section ellipsis">
+
+<span class="name">powerCoder</span>，<span class="bio" title="coder">coder</span>
+</div>
+</div>
+<div class="body clearfix">
+<div class="zm-profile-header-avatar-container self">
+<img class="avatar avatar-l" alt="powerCoder" src="//pic4.zhimg.com/b107c0cfc3e2d7a7a43795fc1170d59b_l.jpg" srcset="//pic4.zhimg.com/b107c0cfc3e2d7a7a43795fc1170d59b_xl.jpg 2x" />
+
+<span class="zm-entry-head-avatar-edit-button">修改头像</span>
+
+</div>
+<div class="zm-profile-header-info">
+<div class="zm-profile-header-user-describe">
+<div class="items">
+<div class="item editable-group" data-name="location">
+
+<i class="icon icon-profile-location"></i>
+
+<span class="info-wrap">
+
+<span class="location item" title="北京"><a href="/topic/19550828" title="北京" class="topic-link" data-token="19550828" data-topicid="202">北京</a></span>
+
+
+<span class="business item" title="高新科技">高新科技</span>
+
+
+<span class="item gender" ><i class="icon icon-profile-male"></i></span>
+
+
+<a class="zu-edit-button edit" name="edit" href="javascript:;"><i class="zu-edit-button-icon"></i><span class="edit-msg">修改</span></a>
+
+</span>
+<span class="edit-wrap" style="display:none;">
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="location" value="北京" class="zg-form-text-input location" placeholder="居住地"/></span>
+<div class="business-selection">
+<select name="business">
+<option value="">选择行业</option>
+
+
+<option value="高新科技" selected>高新科技</option>
+
+<option value="互联网">&nbsp;&nbsp;&nbsp;互联网</option>
+
+<option value="电子商务">&nbsp;&nbsp;&nbsp;电子商务</option>
+
+<option value="电子游戏">&nbsp;&nbsp;&nbsp;电子游戏</option>
+
+<option value="计算机软件">&nbsp;&nbsp;&nbsp;计算机软件</option>
+
+<option value="计算机硬件">&nbsp;&nbsp;&nbsp;计算机硬件</option>
+
+
+
+
+<option value="信息传媒">信息传媒</option>
+
+<option value="出版业">&nbsp;&nbsp;&nbsp;出版业</option>
+
+<option value="电影录音">&nbsp;&nbsp;&nbsp;电影录音</option>
+
+<option value="广播电视">&nbsp;&nbsp;&nbsp;广播电视</option>
+
+<option value="通信">&nbsp;&nbsp;&nbsp;通信</option>
+
+
+
+
+<option value="金融">金融</option>
+
+<option value="银行">&nbsp;&nbsp;&nbsp;银行</option>
+
+<option value="资本投资">&nbsp;&nbsp;&nbsp;资本投资</option>
+
+<option value="证券投资">&nbsp;&nbsp;&nbsp;证券投资</option>
+
+<option value="保险">&nbsp;&nbsp;&nbsp;保险</option>
+
+<option value="信贷">&nbsp;&nbsp;&nbsp;信贷</option>
+
+<option value="财务">&nbsp;&nbsp;&nbsp;财务</option>
+
+<option value="审计">&nbsp;&nbsp;&nbsp;审计</option>
+
+
+
+
+<option value="服务业">服务业</option>
+
+<option value="法律">&nbsp;&nbsp;&nbsp;法律</option>
+
+<option value="餐饮">&nbsp;&nbsp;&nbsp;餐饮</option>
+
+<option value="酒店">&nbsp;&nbsp;&nbsp;酒店</option>
+
+<option value="旅游">&nbsp;&nbsp;&nbsp;旅游</option>
+
+<option value="广告">&nbsp;&nbsp;&nbsp;广告</option>
+
+<option value="公关">&nbsp;&nbsp;&nbsp;公关</option>
+
+<option value="景观">&nbsp;&nbsp;&nbsp;景观</option>
+
+<option value="咨询分析">&nbsp;&nbsp;&nbsp;咨询分析</option>
+
+<option value="市场推广">&nbsp;&nbsp;&nbsp;市场推广</option>
+
+<option value="人力资源">&nbsp;&nbsp;&nbsp;人力资源</option>
+
+<option value="社工服务">&nbsp;&nbsp;&nbsp;社工服务</option>
+
+<option value="养老服务">&nbsp;&nbsp;&nbsp;养老服务</option>
+
+
+
+
+<option value="教育">教育</option>
+
+<option value="高等教育">&nbsp;&nbsp;&nbsp;高等教育</option>
+
+<option value="基础教育">&nbsp;&nbsp;&nbsp;基础教育</option>
+
+<option value="职业教育">&nbsp;&nbsp;&nbsp;职业教育</option>
+
+<option value="幼儿教育">&nbsp;&nbsp;&nbsp;幼儿教育</option>
+
+<option value="特殊教育">&nbsp;&nbsp;&nbsp;特殊教育</option>
+
+<option value="培训">&nbsp;&nbsp;&nbsp;培训</option>
+
+
+
+
+<option value="医疗服务">医疗服务</option>
+
+<option value="临床医疗">&nbsp;&nbsp;&nbsp;临床医疗</option>
+
+<option value="制药">&nbsp;&nbsp;&nbsp;制药</option>
+
+<option value="保健">&nbsp;&nbsp;&nbsp;保健</option>
+
+<option value="美容">&nbsp;&nbsp;&nbsp;美容</option>
+
+<option value="医疗器材">&nbsp;&nbsp;&nbsp;医疗器材</option>
+
+<option value="生物工程">&nbsp;&nbsp;&nbsp;生物工程</option>
+
+<option value="疗养服务">&nbsp;&nbsp;&nbsp;疗养服务</option>
+
+<option value="护理服务">&nbsp;&nbsp;&nbsp;护理服务</option>
+
+
+
+
+<option value="艺术娱乐">艺术娱乐</option>
+
+<option value="创意艺术">&nbsp;&nbsp;&nbsp;创意艺术</option>
+
+<option value="体育健身">&nbsp;&nbsp;&nbsp;体育健身</option>
+
+<option value="娱乐休闲">&nbsp;&nbsp;&nbsp;娱乐休闲</option>
+
+<option value="图书馆">&nbsp;&nbsp;&nbsp;图书馆</option>
+
+<option value="博物馆">&nbsp;&nbsp;&nbsp;博物馆</option>
+
+<option value="策展">&nbsp;&nbsp;&nbsp;策展</option>
+
+<option value="博彩">&nbsp;&nbsp;&nbsp;博彩</option>
+
+
+
+
+<option value="制造加工">制造加工</option>
+
+<option value="食品饮料业">&nbsp;&nbsp;&nbsp;食品饮料业</option>
+
+<option value="纺织皮革业">&nbsp;&nbsp;&nbsp;纺织皮革业</option>
+
+<option value="服装业">&nbsp;&nbsp;&nbsp;服装业</option>
+
+<option value="烟草业">&nbsp;&nbsp;&nbsp;烟草业</option>
+
+<option value="造纸业">&nbsp;&nbsp;&nbsp;造纸业</option>
+
+<option value="印刷业">&nbsp;&nbsp;&nbsp;印刷业</option>
+
+<option value="化工业">&nbsp;&nbsp;&nbsp;化工业</option>
+
+<option value="汽车">&nbsp;&nbsp;&nbsp;汽车</option>
+
+<option value="家具">&nbsp;&nbsp;&nbsp;家具</option>
+
+<option value="电子电器">&nbsp;&nbsp;&nbsp;电子电器</option>
+
+<option value="机械设备">&nbsp;&nbsp;&nbsp;机械设备</option>
+
+<option value="塑料工业">&nbsp;&nbsp;&nbsp;塑料工业</option>
+
+<option value="金属加工">&nbsp;&nbsp;&nbsp;金属加工</option>
+
+<option value="军火">&nbsp;&nbsp;&nbsp;军火</option>
+
+
+
+
+<option value="地产建筑">地产建筑</option>
+
+<option value="房地产">&nbsp;&nbsp;&nbsp;房地产</option>
+
+<option value="装饰装潢">&nbsp;&nbsp;&nbsp;装饰装潢</option>
+
+<option value="物业服务">&nbsp;&nbsp;&nbsp;物业服务</option>
+
+<option value="特殊建造">&nbsp;&nbsp;&nbsp;特殊建造</option>
+
+<option value="建筑设备">&nbsp;&nbsp;&nbsp;建筑设备</option>
+
+
+
+
+<option value="贸易零售">贸易零售</option>
+
+<option value="零售">&nbsp;&nbsp;&nbsp;零售</option>
+
+<option value="大宗交易">&nbsp;&nbsp;&nbsp;大宗交易</option>
+
+<option value="进出口贸易">&nbsp;&nbsp;&nbsp;进出口贸易</option>
+
+
+
+
+<option value="公共服务">公共服务</option>
+
+<option value="政府">&nbsp;&nbsp;&nbsp;政府</option>
+
+<option value="国防军事">&nbsp;&nbsp;&nbsp;国防军事</option>
+
+<option value="航天">&nbsp;&nbsp;&nbsp;航天</option>
+
+<option value="科研">&nbsp;&nbsp;&nbsp;科研</option>
+
+<option value="给排水">&nbsp;&nbsp;&nbsp;给排水</option>
+
+<option value="水利能源">&nbsp;&nbsp;&nbsp;水利能源</option>
+
+<option value="电力电网">&nbsp;&nbsp;&nbsp;电力电网</option>
+
+<option value="公共管理">&nbsp;&nbsp;&nbsp;公共管理</option>
+
+<option value="环境保护">&nbsp;&nbsp;&nbsp;环境保护</option>
+
+<option value="非营利组织">&nbsp;&nbsp;&nbsp;非营利组织</option>
+
+
+
+
+<option value="开采冶金">开采冶金</option>
+
+<option value="煤炭工业">&nbsp;&nbsp;&nbsp;煤炭工业</option>
+
+<option value="石油工业">&nbsp;&nbsp;&nbsp;石油工业</option>
+
+<option value="黑色金属">&nbsp;&nbsp;&nbsp;黑色金属</option>
+
+<option value="有色金属">&nbsp;&nbsp;&nbsp;有色金属</option>
+
+<option value="土砂石开采">&nbsp;&nbsp;&nbsp;土砂石开采</option>
+
+<option value="地热开采">&nbsp;&nbsp;&nbsp;地热开采</option>
+
+
+
+
+<option value="交通仓储">交通仓储</option>
+
+<option value="邮政">&nbsp;&nbsp;&nbsp;邮政</option>
+
+<option value="物流递送">&nbsp;&nbsp;&nbsp;物流递送</option>
+
+<option value="地面运输">&nbsp;&nbsp;&nbsp;地面运输</option>
+
+<option value="铁路运输">&nbsp;&nbsp;&nbsp;铁路运输</option>
+
+<option value="管线运输">&nbsp;&nbsp;&nbsp;管线运输</option>
+
+<option value="航运业">&nbsp;&nbsp;&nbsp;航运业</option>
+
+<option value="民用航空业">&nbsp;&nbsp;&nbsp;民用航空业</option>
+
+
+
+
+<option value="农林牧渔">农林牧渔</option>
+
+<option value="种植业">&nbsp;&nbsp;&nbsp;种植业</option>
+
+<option value="畜牧养殖业">&nbsp;&nbsp;&nbsp;畜牧养殖业</option>
+
+<option value="林业">&nbsp;&nbsp;&nbsp;林业</option>
+
+<option value="渔业">&nbsp;&nbsp;&nbsp;渔业</option>
+
+
+
+</select>
+</div>
+<span class="zg-bull">|</span>
+<input type="radio" name="gender" value="1" checked="checked" class="male"/> 男&nbsp;&nbsp;
+<input type="radio" name="gender" value="0"  class="female"/> 女
+<a class="zg-btn-blue" name="save" href="javascript:;">确定</a>
+</span>
+</div>
+
+<div class="item editable-group empty" data-name="employment">
+<i class="icon icon-profile-company"></i>
+<span class="info-wrap">
+
+<span class="employment item" ><a href="javascript:;" class="zg-link-litblue-normal" name="edit">填写公司信息</a></span>
+
+
+<span class="position item" ><a href="javascript:;" class="zg-link-litblue-normal" name="edit">填写职位</a></span>
+
+
+<a class="zu-edit-button edit" name="edit" href="javascript:;"><i class="zu-edit-button-icon"></i><span class="edit-msg">修改</span></a>
+
+</span>
+<span class='info-empty-wrap'><a href="javascript:;" name="edit" class="zg-link-litblue-normal">填写工作信息</a></span>
+<span class="edit-wrap" style="display:none;">
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="employment" value="" class="zg-form-text-input employment" placeholder="公司或组织名称"/></span>
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="position" value="" class="zg-form-text-input position" placeholder="你的职位"/></span>
+<a class="zg-btn-blue" name="save" href="javascript:;">确定</a>
+</span>
+</div>
+
+
+<div class="item editable-group empty" data-name="education" >
+<i class="icon icon-profile-education"></i>
+<span class="info-wrap">
+
+<span class="education item" ><a href=javascript:;" class="zg-link-litblue-normal" name="edit">填写学校信息</a></span>
+
+
+<span class="education-extra item" ><a href=javascript:;" class="zg-link-litblue-normal" name="edit">填写专业</a></span>
+
+
+<a class="zu-edit-button edit" name="edit" href="javascript:;"><i class="zu-edit-button-icon"></i><span class="edit-msg">修改</span></a>
+
+</span>
+<span class='info-empty-wrap'><a href="javascript:;" name="edit" class="zg-link-litblue-normal">填写教育信息</a></span>
+<span class="edit-wrap" style="display:none;">
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="education" value="" class="zg-form-text-input education" placeholder="学校或教育机构"/></span>
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="education" value="" class="zg-form-text-input education-extra" placeholder="专业方向"/></span>
+<a class="zg-btn-blue" name="save" href="javascript:;">确定</a>
+</span>
+</div>
+
+
+<a class="zm-profile-header-user-detail zg-link-litblue-normal" href="/people/powercoder/about">
+<i class="zm-profile-header-icon"></i>
+<span>查看详细资料</span>
+</a>
+
+</div>
+
+<div class="zm-profile-header-description editable-group empty" data-name="description">
+<span class="info-wrap fold-wrap fold disable-fold">
+<span class="description unfold-item">
+<span class="content">
+
+
+
+</span>
+<a href="javascript:;" name="fold" class="fold collapse meta-item"><i class="z-icon-fold"></i>收起</a>
+</span>
+<span class="fold-item">
+<span class="content">
+
+
+
+</span>
+<a href="javascript:;" class="unfold" name="unfold">显示全部 ?</a>
+</span>
+
+<a class="zu-edit-button edit" name="edit" href="javascript:;"><i class="zu-edit-button-icon"></i><span class="edit-msg">修改</span></a>
+
+</span>
+<span class='info-empty-wrap'><a href="javascript:;" name="edit" class="zg-link-litblue-normal"><i class="zg-icon zg-icon-edit-button-blue"></i>填写个人简介</a></span>
+<span class="edit-wrap" style="display:none;">
+<div class="zm-editable-editor-outer">
+<div class="zm-editable-editor-inner zg-form-text-input">
+<textarea name="description" value="" class="zm-editable-editor-input description" id="profile-header-description-input"></textarea>
+</div>
+</div>
+<a class="zg-btn-blue" name="save" href="javascript:;">确定</a>
+</span>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="zm-profile-header-operation zg-clear  zm-profile-header-operation-myview">
+<div class="zm-profile-header-info-list">
+<span class="zm-profile-header-info-title">获得</span>
+<span class="zm-profile-header-user-agree"><span class="zm-profile-header-icon"></span><strong>0</strong>赞同</span>
+<span class="zm-profile-header-user-thanks"><span class="zm-profile-header-icon"></span><strong>0</strong>感谢</span>
+
+</div>
+
+<a class="zm-profile-header-user-edit zg-link-litblue-normal zg-right" href="/people/edit"><i class="zg-icon zg-icon-edit-button-blue"></i>编辑我的资料</a>
+
+</div>
+<div class="profile-navbar clearfix">
+<a class="item home first active"
+href="/people/powercoder">
+<i class="icon icon-profile-tab-home"></i><span class="hide-text">主页</span>
+</a>
+<a class="item "
+href="/people/powercoder/asks">
+提问
+<span class="num">1</span>
+</a>
+<a class="item "
+href="/people/powercoder/answers">
+回答
+<span class="num">0</span>
+</a>
+<a class="item "
+href="/people/powercoder/posts">
+专栏文章
+<span class="num">0</span>
+</a>
+<a class="item "
+href="/people/powercoder/collections">
+收藏
+<span class="num">0</span>
+</a>
+<a class="item "
+href="/people/powercoder/logs">
+公共编辑
+<span class="num">1</span>
+</a>
+</div>
+
+</div>
+
+
+
+
+
+<div class="zm-profile-section-wrap zm-profile-ask-wrap" id="zh-profile-ask-wrap">
+<div class="zm-profile-section-head">
+<a class="zm-profile-section-title" href="/people/powercoder/asks">
+<h2 class="zm-profile-section-name">提问</h2>
+<i class="zg-right zg-icon zm-profile-section-more-btn" href="/people/powercoder/asks"></i>
+</a>
+</div>
+<div class="zm-profile-section-list" id="zh-profile-ask-inner-list">
+
+<div class="zm-profile-section-item zg-clear">
+<span class="zm-profile-vote-count">
+<div class="zm-profile-vote-num">11</div>
+<div class="zm-profile-vote-type">浏览</div>
+</span>
+<div class="zm-profile-section-main">
+<h2 class="zm-profile-question">
+<a class="question_link" target="_blank" href="/question/35028510">知乎没人关注的问题怎么处理？</a>
+</h2>
+<div class="meta zg-gray">
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-6217978"><i class="z-icon-follow"></i>关注问题</a>
+<span class="zg-bull">&bull;</span>
+0 个回答
+<span class="zg-bull">&bull;</span>
+0 人关注
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+<div class="zm-profile-section-wrap" id="zh-profile-activity-wrap">
+<div class="zm-profile-section-head">
+<h2 class="zm-profile-section-title" style="color:#666;">最新动态</h2>
+</a>
+</div>
+<div class="zm-profile-section-list profile-feed-wrap">
+<div id="zh-profile-activity-page-list">
+
+<div class="zm-profile-section-item zm-item clearfix" data-time="1440587738" data-type="a" >
+<span class="zm-profile-setion-time zg-gray zg-right">1 天前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+赞同了回答
+
+<a class="question_link" target="_blank" href="/question/21301154/answer/60807209">女生如何选择优雅有品味的职业装？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="19734571"
+data-atoken="60807209"
+data-collapsed="0"
+data-created="1440514432"
+data-deleted="0"
+data-isowner="0"
+data-helpful="1"
+data-copyable="0"
+>
+<a class="zg-anchor-hidden" name="answer-19734571"></a>
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="168">168</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up pressed">
+<i class="icon vote-arrow"></i>
+<span class="label">赞同</span>
+<span class="count">168</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<h3 class="zm-item-answer-author-wrap">
+
+
+<a data-tip="p$t$cindyfun"
+class="zm-item-link-avatar"
+href="/people/cindyfun">
+<img src="//pic2.zhimg.com/fc84d749b71805c0a614564b1068ad45_s.jpg"
+class="zm-list-avatar"
+data-source="//pic2.zhimg.com/fc84d749b71805c0a614564b1068ad45_s.jpg" />
+</a>
+
+
+
+<a data-tip="p$t$cindyfun" href="/people/cindyfun">沫糖糖</a>，<strong title="特长买，爱好买" class="zu-question-my-bio">特长买，爱好买</strong>
+
+</h3>
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+
+<div class="zm-item-vote-info " data-votecount="168">
+
+<span class="voters">
+<span class="user-block"><a data-tip="p$t$24wei-85" href="http://www.zhihu.com/people/24wei-85" class="zg-link" title="24味">24味</a>、</span><span class="user-block"><a data-tip="p$t$li-li-17-72" href="http://www.zhihu.com/people/li-li-17-72" class="zg-link" title="李丽">李丽</a>、</span><span class="user-block"><a data-tip="p$t$rainazhu" href="http://www.zhihu.com/people/rainazhu" class="zg-link" title="Raina丶">Raina丶</a></span>
+</span>
+
+
+<a href="javascript:;" class="more"> 等人赞同</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="701164" data-action="/answer/content">
+
+<textarea class="content hidden">
+女性职业装这个概念其实相当大，就我自己本身而言，因为身兼不同工作所以职业装也会相应变化。但不管怎样变，永远要注意细节。&lt;br&gt;&lt;br&gt;&lt;i&gt;图片大部分来自淘宝（主要是反例）或者官网，侵删。&lt;/i&gt;&lt;br&gt;&lt;br&gt;我全职的工作是在券商做general ledger，基本不用对外见人，所以都是素颜朝天平底鞋，衣服也选择自己舒服的穿，因为还要应对各种考试，所以宁可把打扮时间用来多睡睡觉。&lt;br&gt;一般日常都是这样的&lt;br&gt;&lt;img src=&quot;//pic1.zhimg.com/dc976d902e7d5f8ab53c0f355d7b771c_b.jpg&quot; data-rawheight=&quot;580&quot; data-rawwidth=&quot;412&quot; class=&quot;content_image&quot; width=&quot;412&quot;&gt;&lt;br&gt;&lt;u&gt;&lt;strong&gt;但再casual也绝对不是这样的：&lt;/strong&gt;&lt;/u&gt;&lt;br&gt;&lt;img src=&quot;//pic4.zhimg.com/e1326993666d1dcc591dbf566c6a815f_b.jpg&quot; data-rawheight=&quot;402&quot; data-rawwidth=&quot;286&quot; class=&quot;content_image&quot; width=&quot;286&quot;&gt;&lt;br&gt;&lt;br&gt;同时我还做理财经纪人的兼职。当以这个title出去见客户时候，就不能凑合穿了。我们团队的女领导曾经逼着手下在澳门出差的时候，到dior专卖店买十公分的高跟鞋，任凭她们哭爹喊娘也必须要换上。&lt;br&gt;&lt;br&gt;&lt;strong&gt;&lt;u&gt;但当然并不是要穿成这样子&lt;/u&gt;&lt;/strong&gt;：&lt;br&gt;&lt;img src=&quot;//pic4.zhimg.com/715254d37b10b924f847084e679443cf_b.jpg&quot; data-rawheight=&quot;746&quot; data-rawwidth=&quot;316&quot; class=&quot;content_image&quot; width=&quot;316&quot;&gt;&lt;br&gt;&lt;u&gt;&lt;strong&gt;更不是制服诱惑&lt;/strong&gt;&lt;/u&gt;&lt;br&gt;&lt;img src=&quot;//pic4.zhimg.com/b7559fad16b49e01a238fd4fb067c537_b.jpg&quot; data-rawheight=&quot;393&quot; data-rawwidth=&quot;361&quot; class=&quot;content_image&quot; width=&quot;361&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;接下来就这两种不同的身份需要的职业装具体开说。重点会推荐几个职业装不会出错的牌子以及强调永远需要遵循的细节原则。&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;一，休闲轻松的办公室职业装&lt;/u&gt;&lt;/b&gt;&lt;br&gt;说实话在做gl时候我不会在服装上过分投资自己，我的原则是穿那种“不会太容易消耗”的服饰。比如高跟鞋我不会穿，因为高跟鞋必须买好的，而每走一次路就是对她的折旧损伤。&lt;br&gt;&lt;br&gt;1，那选择平底鞋最合适了，能保证你每天挤地铁不会崴脚或担心迟到。推荐maud frizon这个平底鞋牌子，既没有菲拉格慕RV之类那么金贵，款式也很简单大方，质量又比百丽达芙妮之类好太多。&lt;br&gt;&lt;img src=&quot;//pic4.zhimg.com/800ff6aa962b528ec0985b3f52d098c7_b.jpg&quot; data-rawheight=&quot;437&quot; data-rawwidth=&quot;708&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;708&quot; data-original=&quot;//pic4.zhimg.com/800ff6aa962b528ec0985b3f52d098c7_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;2，夏天的话可以投资一条质感好的丝巾放在office，有些大楼经费过高，空调温度都打的很低。一条好的丝巾能帮你防寒，也非常百搭。推荐burberry这个羊绒与真丝混纺的丝巾，btw，他们最近在亚洲调价，价格比原来低了快1000。&lt;br&gt;&lt;br&gt;&lt;img src=&quot;//pic3.zhimg.com/647923353e684bda13083faf78ac2db2_b.jpg&quot; data-rawheight=&quot;1280&quot; data-rawwidth=&quot;960&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;960&quot; data-original=&quot;//pic3.zhimg.com/647923353e684bda13083faf78ac2db2_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;3，日常通勤服只要不是太千奇百怪或弹眼落睛，大部分地方对办公室白领的服装包容度还是很高的。&lt;br&gt;但无奈，每天上班路上还是能看到很多奇装异服。包括并不限于以下两种每天路上看的最多的：&lt;br&gt;&lt;br&gt;&lt;strong&gt;&lt;u&gt;a，怕晒怕凉的你，也不要在短裤里穿长黑丝。&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;//pic2.zhimg.com/569fc80a117cad6a89dbe24a291ff8f9_b.jpg&quot; data-rawheight=&quot;557&quot; data-rawwidth=&quot;436&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;436&quot; data-original=&quot;//pic2.zhimg.com/569fc80a117cad6a89dbe24a291ff8f9_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;u&gt;&lt;strong&gt;b，长T恤加七分裤袜，你以为你停留在查水表艾薇儿时代吗&lt;/strong&gt;&lt;/u&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;//pic3.zhimg.com/1c11fd59e3e98fbd22ab3c4cbe9887ca_b.jpg&quot; data-rawheight=&quot;734&quot; data-rawwidth=&quot;426&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;426&quot; data-original=&quot;//pic3.zhimg.com/1c11fd59e3e98fbd22ab3c4cbe9887ca_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;u&gt;二，光鲜亮丽需要见客户的职业装&lt;/u&gt;&lt;/b&gt;&lt;br&gt;这应该是最应该值得关注的一个话题了。好的职业装既要让你有气场，又不能太过妖艳轻浮。&lt;br&gt;&lt;br&gt;1，仍然从最重要的鞋子说起。前面提到女领导说的十公分高跟鞋。有个大前提，请确保你不用挤地铁。&lt;br&gt;&lt;br&gt;&lt;u&gt;&lt;strong&gt;如果你选这种高跟鞋，人家以为你是刚刚出台的。&lt;/strong&gt;&lt;/u&gt;&lt;br&gt;&lt;img src=&quot;//pic3.zhimg.com/ea729079f1fc4068918448aa3d181836_b.jpg&quot; data-rawheight=&quot;369&quot; data-rawwidth=&quot;375&quot; class=&quot;content_image&quot; width=&quot;375&quot;&gt;&lt;br&gt;&lt;strong&gt;&lt;u&gt;如果你选这种高跟鞋，人家以为你是才走出校门来兼职的大学生。&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;//pic2.zhimg.com/b8a36629f54c5bad4bfd359eedeeb7a1_b.jpg&quot; data-rawheight=&quot;373&quot; data-rawwidth=&quot;357&quot; class=&quot;content_image&quot; width=&quot;357&quot;&gt;&lt;br&gt;&lt;br&gt;下面推荐下不太容易出错的款，&lt;br&gt;纯色，尖头的鞋子基本不会出色（不要再来其他元素了），既不喧宾夺主，又能衬托職業女性幹練美。&lt;br&gt;&lt;br&gt;推荐去6pm海淘nine west，打折时候一双三四百。mairi和margot两款型号都很衬。&lt;br&gt;&lt;img src=&quot;//pic4.zhimg.com/536fbfc2372128c17accaf49fd4c623b_b.jpg&quot; data-rawheight=&quot;414&quot; data-rawwidth=&quot;405&quot; class=&quot;content_image&quot; width=&quot;405&quot;&gt;&lt;br&gt;另外也推荐fed这个牌子，设计简单是她最大的优点。另外国内专柜可以买到的娜然和千百度也能淘到好货。&lt;br&gt;&lt;img src=&quot;//pic1.zhimg.com/666a661be12fb0589e82c210d865d6d8_b.jpg&quot; data-rawheight=&quot;341&quot; data-rawwidth=&quot;732&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;732&quot; data-original=&quot;//pic1.zhimg.com/666a661be12fb0589e82c210d865d6d8_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;总之，防水台鱼嘴粗跟圆头等等请统统滚粗。对了，千万不要在里面穿短丝袜不需要提醒吧？&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;2，无袖连衣裙+丝巾or无袖连衣裙+平肩短款小西装&lt;br&gt;连衣裙是懒人最爱的单品，但是别的单品搭配时候要遵循这个原则，要么一个纯色一个花色，要么都纯色，切忌里外都带花。&lt;br&gt;&lt;br&gt;推荐zara，topshop，asos这种平价品牌，各种基本款，买来换着穿。&lt;br&gt;&lt;img src=&quot;//pic2.zhimg.com/758c835f33ae336e19512de81d065021_b.jpg&quot; data-rawheight=&quot;1110&quot; data-rawwidth=&quot;870&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;870&quot; data-original=&quot;//pic2.zhimg.com/758c835f33ae336e19512de81d065021_r.jpg&quot;&gt;&lt;br&gt;预算更高的可以买ted baker，club monaco，fcuk等，质感面料的确更上一个台阶。&lt;br&gt;&lt;img src=&quot;//pic1.zhimg.com/806f6d95cb82938db8282e77b1c9c9dc_b.jpg&quot; data-rawheight=&quot;572&quot; data-rawwidth=&quot;448&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;448&quot; data-original=&quot;//pic1.zhimg.com/806f6d95cb82938db8282e77b1c9c9dc_r.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;//pic4.zhimg.com/3ff5e580252deddd2b5464f29ec109b3_b.jpg&quot; data-rawheight=&quot;1110&quot; data-rawwidth=&quot;870&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;870&quot; data-original=&quot;//pic4.zhimg.com/3ff5e580252deddd2b5464f29ec109b3_r.jpg&quot;&gt;&lt;br&gt;3，小西装买带垫肩的最容易增加气场，还记得韩国流行过来的村干部披衣法么？&lt;br&gt;&lt;img src=&quot;//pic1.zhimg.com/296356e584f6916b1b80257f0aaae084_b.jpg&quot; data-rawheight=&quot;581&quot; data-rawwidth=&quot;454&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;454&quot; data-original=&quot;//pic1.zhimg.com/296356e584f6916b1b80257f0aaae084_r.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;//pic2.zhimg.com/e4c30228f4ed313231e923614bc752f5_b.jpg&quot; data-rawheight=&quot;630&quot; data-rawwidth=&quot;371&quot; class=&quot;content_image&quot; width=&quot;371&quot;&gt;&lt;br&gt;如果是穿在身上的小西装，&lt;b&gt;&lt;u&gt;请一定记得挽袖，露出你的手腕，&lt;/u&gt;&lt;/b&gt;此条也适用于春秋的风衣，以及到了室内脱下外套后露出的衬衫。&lt;br&gt;&lt;img src=&quot;//pic3.zhimg.com/6ba2852358726783d443ee4213b6832a_b.jpg&quot; data-rawheight=&quot;630&quot; data-rawwidth=&quot;386&quot; class=&quot;content_image&quot; width=&quot;386&quot;&gt;&lt;img src=&quot;//pic1.zhimg.com/4321e8d877753989d155226365ecd52c_b.jpg&quot; data-rawheight=&quot;631&quot; data-rawwidth=&quot;380&quot; class=&quot;content_image&quot; width=&quot;380&quot;&gt;&lt;img src=&quot;//pic3.zhimg.com/b5c5a5b23eb56e5ec44c082ddb5f160e_b.jpg&quot; data-rawheight=&quot;614&quot; data-rawwidth=&quot;341&quot; class=&quot;content_image&quot; width=&quot;341&quot;&gt;大胆露出手腕脚踝来把&lt;br&gt;推荐品牌，zara woman，club monaco，bcbgmaxazria，23区，icb等等，尽可能多去逛，多试。职业装就不要淘宝买了。&lt;br&gt;&lt;br&gt;&lt;br&gt;4，没错，包臀裙也是不会错的单品。&lt;br&gt;&lt;img src=&quot;//pic2.zhimg.com/bbc799550ce879f53b7cf988ec2baded_b.jpg&quot; data-rawheight=&quot;599&quot; data-rawwidth=&quot;474&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;474&quot; data-original=&quot;//pic2.zhimg.com/bbc799550ce879f53b7cf988ec2baded_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;5，关于色彩&lt;br&gt;&lt;br&gt;&lt;u&gt;&lt;b&gt;Attention！职业装不是休闲装。休闲装的原则是一身不能超过三个颜色，而职业装对色彩的控制更为严格。&lt;/b&gt;&lt;/u&gt;&lt;br&gt;&lt;br&gt;你出街可以上蓝下红，但是正式场合千万不能同时穿两个大片对比太明显的饱和色。&lt;br&gt;&lt;strong&gt;&lt;u&gt;这些都是反例，切忌&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;//pic2.zhimg.com/d757922ae8f04141fa7f76207f149e85_b.jpg&quot; data-rawheight=&quot;413&quot; data-rawwidth=&quot;347&quot; class=&quot;content_image&quot; width=&quot;347&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;&lt;u&gt;没错，西装长裤一起穿也是比较不那么上台面的搭配。&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;//pic4.zhimg.com/8d7e5bc39a765e98e6e3765d9eb2269b_b.jpg&quot; data-rawheight=&quot;412&quot; data-rawwidth=&quot;323&quot; class=&quot;content_image&quot; width=&quot;323&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;但是怕沉闷，想玩色彩该如何呢？&lt;br&gt;有一个小窍门，就是选择下装中某个元素的颜色作为上装的基色。&lt;br&gt;&lt;img src=&quot;//pic4.zhimg.com/5f12cc97504e1615df1cc73fe9a16807_b.jpg&quot; data-rawheight=&quot;396&quot; data-rawwidth=&quot;182&quot; class=&quot;content_image&quot; width=&quot;182&quot;&gt;&lt;img src=&quot;//pic1.zhimg.com/45e57d696671a49052a044258349134c_b.jpg&quot; data-rawheight=&quot;312&quot; data-rawwidth=&quot;218&quot; class=&quot;content_image&quot; width=&quot;218&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;不饱和色也可以大胆搭配，只要你的气场不要被这类色的阴柔给带下去&lt;br&gt;&lt;img src=&quot;//pic4.zhimg.com/2e0ca27a1d251af388e4d9451553567f_b.jpg&quot; data-rawheight=&quot;505&quot; data-rawwidth=&quot;396&quot; class=&quot;content_image&quot; width=&quot;396&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;当然，最不容易出错的还是黑白灰。这里有必要为g2000正个名，虽然都在吐槽他做工版型不好，但是一套拿来穿至少不会让你很雷，总比你淘宝买来乱搭好太多。毕竟不是人人都有钱去做高定的。&lt;br&gt;&lt;br&gt;&lt;br&gt;---------------&lt;br&gt;另外包包和妆容也是绝对不能忽视的细节。有空再更。&lt;br&gt;&lt;br&gt;更多让我们变美的收藏请戳：&lt;a href=&quot;http://www.zhihu.com/collection/58416056&quot; class=&quot;internal&quot;&gt;蜈蚣精修炼记 - 收藏夹&lt;/a&gt;
+
+
+<span class="answer-date-link-wrap">
+<a class="answer-date-link last_updated meta-item" data-tip="s$t$发布于 2015-08-25" target="_blank" href="/question/21301154/answer/60807209">编辑于 2015-08-26</a>
+</span>
+
+</textarea>
+<div class="zh-summary summary clearfix">
+<img src="//pic1.zhimg.com/dc976d902e7d5f8ab53c0f355d7b771c_xld.jpg" data-rawheight="580" data-rawwidth="412" class="origin_image inline-img zh-lightbox-thumb" data-original="//pic1.zhimg.com/dc976d902e7d5f8ab53c0f355d7b771c_r.jpg">
+女性职业装这个概念其实相当大，就我自己本身而言，因为身兼不同工作所以职业装也会相应变化。但不管怎样变，永远要注意细节。<i>图片大部分来自淘宝（主要是反例）或者官网，侵删。</i>我全职的工作是在券商做general ledger，基本不用对外见人，所以都是素颜朝天…
+
+<a href="/question/21301154/answer/60807209" class="toggle-expand">显示全部</a>
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-701164"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>26 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide" name="thanks" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="#" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" name="nohelp" class="meta-item zu-autohide">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" name="report" class="meta-item zu-autohide">举报</a>
+
+
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright" data-author-avatar="//pic2.zhimg.com/fc84d749b71805c0a614564b1068ad45_m.jpg"> 禁止转载 </a>
+
+
+<a href="#" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" data-time="1440550628" data-type="" >
+<span class="zm-profile-setion-time zg-gray zg-right">2 天前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<a title="powerCoder"
+data-tip="p$t$powercoder"
+class="zm-item-link-avatar"
+href="/people/powercoder">
+<img src="//pic4.zhimg.com/b107c0cfc3e2d7a7a43795fc1170d59b_s.jpg" class="zm-item-img-avatar">
+</a>提了一个问题
+
+<a class="question_link" href="/question/35028510">知乎没人关注的问题怎么处理？</a>
+</div>
+
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" data-time="1440491656" data-type="" >
+<span class="zm-profile-setion-time zg-gray zg-right">2 天前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+关注了问题
+
+<a class="question_link" href="/question/34920215">真的有一生顺遂没有挫折苦难的人生吗？</a>
+</div>
+
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" data-time="1440337518" data-type="a" >
+<span class="zm-profile-setion-time zg-gray zg-right">4 天前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+赞同了回答
+
+<a class="question_link" target="_blank" href="/question/34614377/answer/59701285">有哪些动漫中的爱情（感情）令你最难忘？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="19290412"
+data-atoken="59701285"
+data-collapsed="0"
+data-created="1439862964"
+data-deleted="0"
+data-isowner="0"
+data-helpful="1"
+data-copyable="1"
+>
+<a class="zg-anchor-hidden" name="answer-19290412"></a>
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="227">227</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up pressed">
+<i class="icon vote-arrow"></i>
+<span class="label">赞同</span>
+<span class="count">227</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<h3 class="zm-item-answer-author-wrap">
+
+
+<a data-tip="p$t$wang-yu-61-47-24"
+class="zm-item-link-avatar"
+href="/people/wang-yu-61-47-24">
+<img src="//pic2.zhimg.com/5490c412cd9de19b5c72465f072ec231_s.jpg"
+class="zm-list-avatar"
+data-source="//pic2.zhimg.com/5490c412cd9de19b5c72465f072ec231_s.jpg" />
+</a>
+
+
+
+<a data-tip="p$t$wang-yu-61-47-24" href="/people/wang-yu-61-47-24">自言自语昱</a>，<strong title="死宅医学生" class="zu-question-my-bio">死宅医学生</strong>
+
+</h3>
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+
+<div class="zm-item-vote-info " data-votecount="227">
+
+<span class="voters">
+<span class="user-block"><a data-tip="p$t$sun-yu-bo-23" href="http://www.zhihu.com/people/sun-yu-bo-23" class="zg-link" title="孙宇波">孙宇波</a>、</span><span class="user-block"><a data-tip="p$t$xing-zhi-89-36" href="http://www.zhihu.com/people/xing-zhi-89-36" class="zg-link" title="行止">行止</a>、</span><span class="user-block"><a data-tip="p$t$pi-hong-fei" href="http://www.zhihu.com/people/pi-hong-fei" class="zg-link" title="皮鸿飞">皮鸿飞</a></span>
+</span>
+
+
+<a href="javascript:;" class="more"> 等人赞同</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="6052215" data-action="/answer/content">
+
+<textarea class="content hidden">
+空之境界闪光弹二人组，真爱CP，&lt;br&gt;两仪干也×两仪式 &lt;img src=&quot;//pic1.zhimg.com/87520452afa5033f7b80542ead96a2b4_b.jpg&quot; data-rawheight=&quot;607&quot; data-rawwidth=&quot;1080&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;//pic1.zhimg.com/87520452afa5033f7b80542ead96a2b4_r.jpg&quot;&gt;&lt;img src=&quot;//pic2.zhimg.com/c3822cb657c3b1724d301f287e6ce9f9_b.jpg&quot; data-rawheight=&quot;607&quot; data-rawwidth=&quot;1080&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;//pic2.zhimg.com/c3822cb657c3b1724d301f287e6ce9f9_r.jpg&quot;&gt;&lt;img src=&quot;//pic1.zhimg.com/e10e0fa4c3ec90624240bfd7213d3720_b.jpg&quot; data-rawheight=&quot;607&quot; data-rawwidth=&quot;1080&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;//pic1.zhimg.com/e10e0fa4c3ec90624240bfd7213d3720_r.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;//pic2.zhimg.com/7cdeaa0e11903efcf2d608fd3f24d211_b.jpg&quot; data-rawheight=&quot;607&quot; data-rawwidth=&quot;1080&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;//pic2.zhimg.com/7cdeaa0e11903efcf2d608fd3f24d211_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt; ———————————————感受一下什么是真(nve)爱(gou)的分割线———————— &lt;br&gt;&lt;br&gt;我握住的手，不知不觉间也用比我还确实的力道回握着我。 &lt;br&gt;&lt;br&gt;—— &lt;br&gt;&lt;br&gt;这些琐碎的小事，不知为何却让我很高兴。 我一边冷静压抑浮上脸颊的微笑，一边往坡道下迈开脚步。 &lt;br&gt;&lt;br&gt;最后终于到达了车站，我们回到了那个我们非常熟悉的城镇。 &lt;br&gt;&lt;br&gt;弯弯曲曲的归途。 &lt;br&gt;&lt;br&gt;就算是很遥远，让人感觉会迷失的道路，也有人握着自己的手同行。 &lt;br&gt;&lt;br&gt;我所希望的并不是短刀或者其它东西，仅仅只是那双手而已。我想，不管以后发生什么事，我都不会放开自己的手了。 我的故事到此结束了。 &lt;br&gt;&lt;br&gt;我接受了现在的自己还有以前的式，度过一天复一天的平常生活。&lt;br&gt;&lt;br&gt;接下来，正好就跟这个季节一样…&lt;br&gt;&lt;br&gt;静静地等待…&lt;br&gt;&lt;br&gt;寒冬结束而春暖花开来临的时刻 &lt;br&gt;&lt;br&gt;——&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;————————真爱的结晶————————&lt;br&gt;&lt;br&gt;&lt;img src=&quot;//pic1.zhimg.com/54f48268113e5527255a956df5847948_b.jpg&quot; data-rawheight=&quot;366&quot; data-rawwidth=&quot;510&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;510&quot; data-original=&quot;//pic1.zhimg.com/54f48268113e5527255a956df5847948_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;//pic1.zhimg.com/80fe15ebf6a454e2ed2685995d0113bc_b.jpg&quot; data-rawheight=&quot;1351&quot; data-rawwidth=&quot;1000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1000&quot; data-original=&quot;//pic1.zhimg.com/80fe15ebf6a454e2ed2685995d0113bc_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;最大的优势在于人家两位孩子都有了！&lt;br&gt;曾经女神成人妻……T^T&lt;br&gt;曾经男神成人夫……T^T&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;对了，两位声优现实中就是一对夫妻&lt;br&gt;祝福坂本真绫与铃村健一&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;PS:最初的绯闻应该是来自高达seed，在其中两人饰演情侣真飞鸟×露娜。〖这二人的对手戏还是很多的〗在之后的访谈对话中有以下这样的对话。&lt;br&gt;&lt;br&gt;铃村：“这部片子我最喜欢的就是露娜了！”&lt;br&gt;坂本高兴得回答：“是吗？我也最喜欢铃村先生了！非常喜欢！”&lt;br&gt;&lt;br&gt;(ΦωΦ)&lt;br&gt;&lt;br&gt;——————惊讶的分界线——————&lt;br&gt;&lt;br&gt;居然有100赞……&lt;br&gt;好神奇……&lt;br&gt;人生第一次哦！&lt;br&gt;再放张图吧^_^&lt;br&gt;&lt;img src=&quot;//pic2.zhimg.com/8d768f7eeb491052d846f13576a46f65_b.jpg&quot; data-rawheight=&quot;607&quot; data-rawwidth=&quot;1080&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;//pic2.zhimg.com/8d768f7eeb491052d846f13576a46f65_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;《哈利波特与远坂凛》
+
+
+<span class="answer-date-link-wrap">
+<a class="answer-date-link last_updated meta-item" data-tip="s$t$发布于 2015-08-18" target="_blank" href="/question/34614377/answer/59701285">编辑于 昨天 10:01</a>
+</span>
+
+</textarea>
+<div class="zh-summary summary clearfix">
+<img src="//pic1.zhimg.com/87520452afa5033f7b80542ead96a2b4_xld.jpg" data-rawheight="607" data-rawwidth="1080" class="origin_image inline-img zh-lightbox-thumb" data-original="//pic1.zhimg.com/87520452afa5033f7b80542ead96a2b4_r.jpg">
+空之境界闪光弹二人组，真爱CP，两仪干也×两仪式 ———————————————感受一下什么是真(nve)爱(gou)的分割线———————— 我握住的手，不知不觉间也用比我还确实的力道回握着我。 —— 这些琐碎的小事，不知为何却让我很高兴。 我一边冷静…
+
+<a href="/question/34614377/answer/59701285" class="toggle-expand">显示全部</a>
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-6052215"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>89 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide" name="thanks" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="#" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" name="nohelp" class="meta-item zu-autohide">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" name="report" class="meta-item zu-autohide">举报</a>
+
+
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright"> 作者保留权利 </a>
+
+
+<a href="#" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" data-time="1440289463" data-type="a" >
+<span class="zm-profile-setion-time zg-gray zg-right">5 天前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+赞同了回答
+
+<a class="question_link" target="_blank" href="/question/29773433/answer/60097274">社交恐惧是怎样的体验？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="19449393"
+data-atoken="60097274"
+data-collapsed="0"
+data-created="1440075047"
+data-deleted="0"
+data-isowner="0"
+data-helpful="1"
+data-copyable="1"
+>
+<a class="zg-anchor-hidden" name="answer-19449393"></a>
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="200">200</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up pressed">
+<i class="icon vote-arrow"></i>
+<span class="label">赞同</span>
+<span class="count">200</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+<h3 class="zm-item-answer-author-wrap">匿名用户</h3></div>
+
+<div class="zm-item-vote-info " data-votecount="200">
+
+<span class="voters">
+<span class="user-block"><a data-tip="p$t$shi-yi-49-41" href="http://www.zhihu.com/people/shi-yi-49-41" class="zg-link" title="逝忆">逝忆</a>、</span><span class="user-block"><a data-tip="p$t$sylvia-hong" href="http://www.zhihu.com/people/sylvia-hong" class="zg-link" title="sylvia hong">sylvia hong</a>、</span><span class="user-block"><a data-tip="p$t$yang-yi-62-58" href="http://www.zhihu.com/people/yang-yi-62-58" class="zg-link" title="佯一">佯一</a></span>
+</span>
+
+
+<a href="javascript:;" class="more"> 等人赞同</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="4092137" data-action="/answer/content">
+
+<textarea class="content hidden">
+1.特别讨厌，极其不愿意在很多人面前自我介绍，即使介绍了，也中气不足，说话小声。 &lt;br&gt;&lt;br&gt;2.怕丢脸，非常怕事情做不好，哪怕去做了也是小心翼翼，总是觉得别人会看着你，对你会有意见。也正是；为脸皮薄，所以很多活动不愿意去参与，一半是因为自己喜好静，一半是由于担心自己会有出丑的表现。&lt;br&gt;&lt;br&gt; 3.人缘糟糕，也许只会有为数不多的仅有的2，3个朋友。在班上不合群，运气差的话，往往只能独来独往。对于那些活跃的人，一方面会报以摒弃，觉得没什么了不起，不就是能说会道吗？我也会啊，只是不想谈他们谈的话题罢了；另一方面，羡慕他们的人缘好，成天有着一大堆称兄道弟的好哥们，也会想去融入他们的群体，但总会因为方方面面的原因做不到，比如：自己的羞涩，踌躇，有时候特别希望会有一个人来伸出援手，帮助自己，哪怕就是一句话，一个交谈，都会让自己卑贱地感激，可是多数情况下，没有，自己就会带着愤恨，不屑，无所畏惧，对自己说：“去他妈的，老子自己一个人也可以过的好好的。”这样的情绪下，会恨所有人。&lt;br&gt;&lt;br&gt; 4.会努力装出一份不屑一顾，冷漠至极的表情，让接近你的人望而生畏，实际上，自己脆弱到不堪一击，别人会觉得你孤傲，事实是，那是深入心底的自卑，觉得自己不如人，不像个正常人一样的交流，交际。 &lt;br&gt;5.有时候特别想就这样一个人学习，生活，做自己想做的事，但随着年龄的增长，理性与感性会告诉你，这样的状态会送你进入地狱，尤其你的父母长辈的谈话会说，社会上混的好的都是会说话，善于社会交际的人，他们动动嘴皮子，就可以获得那些拉不开嘴的人更多的机会和社会资源。会想去改变这样的局面，红着脸，壮着胆去搭讪，在一些人面前大声说话，尽可能的嬉皮笑脸，但是去做上述这些，自己会觉得不自然，觉得造作。你拼命去讲话，抖着看过的段子，努力地找话题，不让局面尴尬，但是可能对于交谈的人来说，得不到他的正视，还会觉得傻逼，情商低。 &lt;br&gt;6.一些场合，比如同学的聚会，会很排斥那些活跃的，自认为很成熟，或者很逗比的人，我可以理解他们的行为举止，但在情绪上近乎于厌恶。&lt;br&gt;&lt;br&gt; 7.比如现在匿名回答这个问题。
+
+
+<span class="answer-date-link-wrap">
+<a class="answer-date-link meta-item" target="_blank" href="/question/29773433/answer/60097274">发布于 2015-08-20</a>
+</span>
+
+</textarea>
+<div class="zh-summary summary clearfix">
+
+1.特别讨厌，极其不愿意在很多人面前自我介绍，即使介绍了，也中气不足，说话小声。 2.怕丢脸，非常怕事情做不好，哪怕去做了也是小心翼翼，总是觉得别人会看着你，对你会有意见。也正是；为脸皮薄，所以很多活动不愿意去参与，一半是因为自己喜好静，一半…
+
+<a href="/question/29773433/answer/60097274" class="toggle-expand">显示全部</a>
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-unfollow meta-item" href="javascript:;" id="sfb-4092137"><i class="z-icon-follow"></i>取消关注</a>
+
+<a href="#" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>91 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide" name="thanks" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="#" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" name="nohelp" class="meta-item zu-autohide">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" name="report" class="meta-item zu-autohide">举报</a>
+
+
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright"> 作者保留权利 </a>
+
+
+<a href="#" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" data-time="1439998574" data-type="a" >
+<span class="zm-profile-setion-time zg-gray zg-right">1 周前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+赞同了回答
+
+<a class="question_link" target="_blank" href="/question/33947484/answer/58865580">人所能做到的最大的善良是什么？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="18955048"
+data-atoken="58865580"
+data-collapsed="0"
+data-created="1439362114"
+data-deleted="0"
+data-isowner="0"
+data-helpful="1"
+data-copyable="1"
+>
+<a class="zg-anchor-hidden" name="answer-18955048"></a>
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="2990">2990</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up pressed">
+<i class="icon vote-arrow"></i>
+<span class="label">赞同</span>
+<span class="count">2990</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<h3 class="zm-item-answer-author-wrap">
+
+
+<a data-tip="p$t$ma-zi-duo-zheng-zai-bei-dan-ci"
+class="zm-item-link-avatar"
+href="/people/ma-zi-duo-zheng-zai-bei-dan-ci">
+<img src="//pic2.zhimg.com/a26a86a5a3bc72f12a383aee5883df61_s.jpg"
+class="zm-list-avatar"
+data-source="//pic2.zhimg.com/a26a86a5a3bc72f12a383aee5883df61_s.jpg" />
+</a>
+
+
+
+<a data-tip="p$t$ma-zi-duo-zheng-zai-bei-dan-ci" href="/people/ma-zi-duo-zheng-zai-bei-dan-ci">马梓铎正在背单词</a>，<strong title="西直门，西直门，你比东直门靠西些。" class="zu-question-my-bio">西直门，西直门，你比东直门靠西些。</strong>
+
+</h3>
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+
+<div class="zm-item-vote-info " data-votecount="2990">
+
+<span class="voters">
+<span class="user-block"><a data-tip="p$t$lu-lu-jiang-65" href="http://www.zhihu.com/people/lu-lu-jiang-65" class="zg-link" title="露露酱">露露酱</a>、</span><span class="user-block"><a data-tip="p$t$de-nan-25" href="http://www.zhihu.com/people/de-nan-25" class="zg-link" title="德南">德南</a>、</span><span class="user-block"><a data-tip="p$t$xie-xiao-li-15-80" href="http://www.zhihu.com/people/xie-xiao-li-15-80" class="zg-link" title="谢小丽">谢小丽</a></span>
+</span>
+
+
+<a href="javascript:;" class="more"> 等人赞同</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="5785586" data-action="/answer/content">
+
+<textarea class="content hidden">
+说一个我自己的故事，我在回答别的问题的时候也说过，但终究我是忘不了这件事的，在这里，我可以说得详细些。另外，如果他们能看到这篇帖子，那将是何其好的事情，只是我想可能再也见不到他们了。&lt;br&gt;&lt;br&gt; 2012年1月，我初三的第一个长假期。&lt;br&gt; 我和在甘肃陇南参加完培训的妈妈一起坐大巴回兰州，但因为错过了售票时间只能改到甘肃天水，再由天水乘车至兰州。&lt;br&gt;&lt;br&gt; 到达天水汽车站的时间是凌晨1.45。&lt;br&gt; 最早发往兰州的大巴要到早晨的6点，我和妈妈从车站走出来，左手边是完全看不见的，我们就拐到了右边的台阶往下走，妈妈走在我前面，但就在那时——大概是黑暗的缘故，妈妈没留神单脚踏空，直接从高高的台阶上摔了下去。虽然周边环境是黑的——但不知道大家有没有这样的意识，我清晰地看得到石板路上淌开的血。&lt;br&gt;&lt;br&gt; 对于当时性格极其内向的我来说，除了不住地喊【妈妈没事吧，妈妈怎么办】，真的整个人都傻了。胳膊也不停发抖。&lt;br&gt;&lt;br&gt; 【去找人来，快………注意安全】这是妈妈给我说的。&lt;br&gt; 我拔腿跑得飞快，冲上了天水汽车站前的那条大路。我不敢跑远了，那个时候真的怕跑远了就再也找不回来这个地方了。&lt;br&gt;&lt;br&gt; 凌晨两点，整个城市安静得可怕。我居然来了脾气，一边淌着眼泪，一边把手里的易拉罐甩出了老远，在这格外安静的环境里碰撞声被放大。&lt;br&gt; 然后，我就看到一个清洁工老奶奶把易拉罐拾起来了。&lt;br&gt; 或许到了情形下，谁都没有时间判断对方的好恶，我径直冲过去，几乎是一把抱住了清洁工奶奶。&lt;br&gt;&lt;br&gt; 【奶奶，帮我妈妈…】&lt;br&gt; 她犹豫了一下——这是可以理解的，谁敢保证凌晨两点还在街上的不是什么行恶的人。人之常情而已。&lt;br&gt;&lt;br&gt; 但她终于是和我过去了。&lt;br&gt; 她走到妈妈面前，把妈妈掺起来，说了句【姑娘，你忍着些，我给你叫车去】。她让我拉着妈妈，丢下她的巨大的扫帚，向马路边跑去，她身体看起来比我还要小，这么晚了，她的老伴有没有在家里给他做了卤面等着她呢，还是什么汤丸子？&lt;br&gt;&lt;br&gt; 车子叫来了，司机叔叔把我妈妈背到了副驾驶的位置上，我坐在后面。&lt;br&gt; 清洁工奶奶示意我把窗户打开，然后，她就把什么东西塞在我的上衣口袋里了。&lt;br&gt; 【快走吧】奶奶示意司机叔叔。&lt;br&gt;&lt;br&gt; 车子开动后，我一直看着清洁工奶奶，她没有回去捡她的大扫帚，她像是给我说着什么，然后挥挥手，直到我再也看不见她。&lt;br&gt;&lt;br&gt; 我摸摸上衣的口袋，老天，居然是钱！一张皱得十分厉害的20块。现在想起来，这钱大概被老奶奶装了很久了吧，每天回家都要摸出来看看，很舍不得花出去的吧……&lt;br&gt;&lt;br&gt; 到了医院，司机叔叔就背着妈妈走进去，我只能一溜小跑跟着。爸妈早早离异，我仿佛从没看过妈妈被一个男人这样背着，我说不出话，幼年的我脑子里只有一个单纯但最直接的想法———【妈妈千万不能有事】&lt;br&gt;&lt;br&gt; 我只记得后来，妈妈在额头上缝了好多针，我爬在妈妈床边过了一夜。&lt;br&gt; 当小姨从兰州赶过来时，已经是第二天的9点了。&lt;br&gt;&lt;br&gt; 而那个昨天一直陪着我和妈妈的司机叔叔，我再也没找到他。&lt;br&gt; 可是妈妈的所有医药费，已经被付过了。我想，叔叔也有一个很爱的妻子，一个可爱的孩子，他是赶紧回家去了吧。&lt;br&gt;&lt;br&gt; 坐在天水到兰州的车上，我靠着窗子，我已经忘了那时在想些什么，我摸摸上衣的口袋，哦，是那皱得厉害的20元钱。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; 初中毕业后，我继续在外省读高中，天水再也没有去过。已经过了3年了，街市依旧，世间无常。&lt;br&gt;&lt;br&gt; 只是我记得——可能不会忘，一辆车，和一支长长的扫帚。
+
+
+<span class="answer-date-link-wrap">
+<a class="answer-date-link last_updated meta-item" data-tip="s$t$发布于 2015-08-12" target="_blank" href="/question/33947484/answer/58865580">编辑于 2015-08-13</a>
+</span>
+
+</textarea>
+<div class="zh-summary summary clearfix">
+
+说一个我自己的故事，我在回答别的问题的时候也说过，但终究我是忘不了这件事的，在这里，我可以说得详细些。另外，如果他们能看到这篇帖子，那将是何其好的事情，只是我想可能再也见不到他们了。 2012年1月，我初三的第一个长假期。 我和在甘肃陇南参加完…
+
+<a href="/question/33947484/answer/58865580" class="toggle-expand">显示全部</a>
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-5785586"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>304 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide" name="thanks" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="#" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" name="nohelp" class="meta-item zu-autohide">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" name="report" class="meta-item zu-autohide">举报</a>
+
+
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright"> 作者保留权利 </a>
+
+
+<a href="#" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" data-time="1439952519" data-type="" >
+<span class="zm-profile-setion-time zg-gray zg-right">1 周前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+关注了话题
+
+<a href="/topic/19555513" title="生活方式" class="topic-link">
+<img class="pic" src="//pic2.zhimg.com/97519a90d_s.jpg"><span class="name" data-tip="t$t$19555513">生活方式</span>
+</a>
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="zu-main-sidebar">
+<div class="zm-profile-side-following zg-clear">
+<a class="item" href="/people/powercoder/followees">
+<span class="zg-gray-normal">关注了</span><br />
+<strong>13</strong><label> 人</label>
+</a>
+<a class="item" href="/people/powercoder/followers">
+<span class="zg-gray-normal">关注者</span><br />
+<strong>0</strong><label> 人</label>
+</a>
+</div>
+
+<div class="zm-profile-side-section">
+<div class="zm-side-section-inner zg-clear">
+<div class="zm-profile-side-section-title">
+关注了 <a href="/people/powercoder/topics" class="zg-link-litblue"><strong>11 个话题</strong></a>
+</div>
+<div class="zm-profile-side-topics" id="zh-profile-following-topic">
+
+<a class="link" data-tip="t$t$19551147" href="/topic/19551147">
+<img class="avatar" src="//pic4.zhimg.com/d5aed1527_m.jpg" title="生活">
+</a>
+
+<a class="link" data-tip="t$t$19551432" href="/topic/19551432">
+<img class="avatar" src="//pic2.zhimg.com/7a579133e50fc9125ff7cda05249fcf1_m.jpg" title="心理学">
+</a>
+
+<a class="link" data-tip="t$t$19552706" href="/topic/19552706">
+<img class="avatar" src="//pic4.zhimg.com/874291333_m.jpg" title="运动">
+</a>
+
+<a class="link" data-tip="t$t$19555513" href="/topic/19555513">
+<img class="avatar" src="//pic2.zhimg.com/97519a90d_m.jpg" title="生活方式">
+</a>
+
+<a class="link" data-tip="t$t$19556231" href="/topic/19556231">
+<img class="avatar" src="//pic1.zhimg.com/e77cabe14_m.jpg" title="交互设计">
+</a>
+
+<a class="link" data-tip="t$t$19556423" href="/topic/19556423">
+<img class="avatar" src="//pic3.zhimg.com/cf0156d3a_m.jpg" title="文学">
+</a>
+
+<a class="link" data-tip="t$t$19559052" href="/topic/19559052">
+<img class="avatar" src="//pic2.zhimg.com/06fecb761_m.jpg" title="足球">
+</a>
+
+</div>
+</div>
+</div>
+<div class="zm-profile-side-section friendliness">
+<div class="zm-side-section-inner">
+<div class="zm-profile-side-section-title">
+友善度
+<a href="/community/friendly" class="friendliness-stars" data-tip="s$r$仅自己可见">
+<span class="gray-stars"></span>
+<span class="blue-stars" style="width: 100.0%"></span>
+</a>
+</div>
+
+
+</div>
+</div>
+
+<div class="zm-profile-side-section">
+<div class="zm-side-section-inner">
+<span class="zg-gray-normal">个人主页被 <strong>7</strong> 人浏览</span>
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="current_people">["powerCoder","powercoder","\/\/pic4.zhimg.com\/b107c0cfc3e2d7a7a43795fc1170d59b_s.jpg","22fdc1446dcf0553d13d1a29efef7ad7"]</script>
+<div id="zh-footer" class="zh-footer">
+<div class="zg-wrap clearfix">
+<ul>
+
+<li><a href="/question/19581624" target='_blank'>知乎指南</a></li>
+<li><a href="javascript:;" id="js-feedback-button">建议反馈</a></li>
+
+<li><a href="/app" target='_blank'>移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="mailto:bd@zhihu.com">商务合作</a></li>
+</ul>
+<span class="copy">&copy; 2015 知乎</span>
+</div>
+</div>
+
+</div>
+<div class="zg-clear"></div>
+</div>
+
+
+<script type="text/json" class="json-inline" data-name="guiders2">{"exclusive-popover":{},"section":{},"editor":[]}</script>
+
+
+
+
+
+<script type="text/template" class="activate-dialog-template">
+
+<div class="link-activate-view clearfix">
+<div class="tip">为了正常使用知乎的提问、回答、评论和编辑功能，请验证你的邮箱。</div>
+<div class="describe">你绑定的邮箱如下，请查收邮件激活你的帐号</div>
+<div class="email">powercoder@qq.com</div>
+<div class="actions">
+<a class="resend-activation-email zg-link-litblue-normal" href="#">重发激活邮件</a>
+<span class="zg-bull">·</span>
+<a class="zg-link-litblue-normal" href="/settings/account">修改邮箱</a>
+</div>
+</div>
+
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["powerCoder","powercoder","\/\/pic4.zhimg.com\/b107c0cfc3e2d7a7a43795fc1170d59b_s.jpg","22fdc1446dcf0553d13d1a29efef7ad7","coder",0,0,1,"powercoder@qq.com","http:\/\/mail.qq.com",0,false,false,false,617286152982630400]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":1439952487000,"now":1440748397000,"abtest_mask":"---------0--------------------","user_attr":[1,0,0,"-",1],"user_hash":"22fdc1446dcf0553d13d1a29efef7ad7"}</script>
+
+<script src="http://static.zhihu.com/static/ver/e81122a3ca2b78ad911aff474211d7c3.extern_src.min.js"></script>
+<script src="http://static.zhihu.com/static/ver/b6876be07a7b4f95f05471cfbee736bc.app_core.js"></script>
+<script src="http://static.zhihu.com/static/ver/79ceb1837504d4e75dab47666c06a760.sign.js"></script>
+<script src="http://static.zhihu.com/static/ver/3927620d61ee1e463037f78c5d92e21b.app.js"></script>
+<script src="http://static.zhihu.com/static/ver/ac9cf1663b15eee593ed73042b10a3ad.rich_text_editor.js"></script>
+
+<script type="text/zscript" znonce="dac952d4262c4bf98dd6d9062dd9d229">
+ZH.entryP();
+</script>
+
+<input type="hidden" name="_xsrf" value="3c3453a93543a2dabe2ec10e8efd45fa"/>
+</body>
+</html>
+
